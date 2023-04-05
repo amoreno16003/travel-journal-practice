@@ -1,0 +1,41 @@
+.ExperienceRoot{
+    display: flex;
+    margin-left: 100px;
+}
+
+.cover-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.pinpoint{
+    width: 30px;
+    height: 30px;
+}
+
+.location{
+    display: flex;
+    /* align-items: flex-start; */
+    margin-top: 10px;
+    justify-content: start;
+}
+.location > * {
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.experience-elements{
+   margin-left: 20px; 
+   text-align: left;
+}
+
+.description{
+    max-width: 400px;
+    text-align: left;
+}
+
+.date{
+    margin-left: 0;
+}

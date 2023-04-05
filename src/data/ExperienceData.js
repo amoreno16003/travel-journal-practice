@@ -1,0 +1,32 @@
+export default [
+    {
+        id: 1,
+        title: "Mexico",
+        location: "Teotihuacan Pyramids",
+        googleMapsLink: "https://www.google.com/maps/place/Teotihuacan+Pyramids+(Botanical+Gardens)/@19.6899771,-98.8431439,1024m/data=!3m1!1e3!4m6!3m5!1s0x85d1eb992ea90e9d:0x19c70c8930b2d453!8m2!3d19.6899771!4d-98.8431439!16s%2Fg%2F11f6g0k8bw",
+        startDate: "2020-01-01",
+        endDate: "2020-01-08",
+        description: "As the traveler wandered through the enigmatic Teotihuacan Pyramids, they were awestruck by the ancient civilization's architectural prowess and rich cultural heritage. In their compelling articles, they shared the exhilaration of climbing the Pyramid of the Sun and marveling at the intricate murals, bringing the mysterious site to life for their readers.",
+        image: "https://travellemming.com/wp-content/uploads/Myan-Pyramid.jpg",
+    },
+    {
+        id: 2,
+        title: "Japan",
+        location: "Tokyo",
+        googleMapsLink: "https://www.google.com/maps/place/Tokyo,+Japan/@35.5079446,139.2093896,226734m/data=!3m2!1e3!4b1!4m6!3m5!1s0x605d1b87f02e57e7:0x2e01618b22571b89!8m2!3d35.6761919!4d139.6503106!16zL20vMDdkZms",
+        startDate: "2020-06-15",
+        endDate: "2020-01-28",
+        description: "While exploring the vibrant streets of Tokyo, the traveler reveled in the city's unique blend of ancient traditions and cutting-edge technology. In their captivating blog posts, they vividly documented experiences ranging from the bustling Shibuya Crossing to the tranquil beauty of the Meiji Shrine, capturing the essence of the city's contrasts.",
+        image: "https://i.insider.com/5d26280921a86107bb51bd92?width=1000&format=jpeg&auto=webp",
+    },
+    {
+        id: 3,
+        title: "Grand Canyon",
+        location: "Arizona",
+        googleMapsLink: "https://www.google.com/maps/place/Grand+Canyon/@36.0997613,-112.1304235,3516m/data=!3m2!1e3!4b1!4m6!3m5!1s0x80cc0654bd27e08d:0xb1c2554442d42e8d!8m2!3d36.0997631!4d-112.1124846!16s%2Fg%2F1tg6vzsz",
+        startDate: "2022-09-17",
+        endDate: "2020-01-23",
+        description: "The awe-inspiring vastness of the Grand Canyon left the traveler speechless as they navigated the rugged trails and gazed upon the vivid hues of the canyon walls. Their eloquent writings captured the breathtaking panoramas, vivid sunsets, and profound sense of connection to nature experienced in this geological wonder.",
+        image: "https://cdn.allgrandcanyon.com/images/home/summer.jpg",
+    },
+]

@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Navbar from './components/Navbar'
+import Experience from './components/Experience';
+
+import ExperienceData from './data/ExperienceData'
+
+let Experiences = ExperienceData.map((item) => {
+  return <Experience
+    id={item.id}
+    item={item}
+  />
+})
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      {Experiences}
     </div>
   );
 }
